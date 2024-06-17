@@ -5,6 +5,9 @@ export default {
   "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'josefin': ['Josefin Sans', 'sans-serif']
+    },
   extend: {},
   },
   plugins: [],
