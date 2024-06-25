@@ -4,7 +4,7 @@ import Logo from "/Tuli.svg"
 function Header() {
     return ( 
         <>
-        <header className="flex bg-black p-7 opacity-20 text-white justify-between items-center">
+        <header className="flex absolute w-full bg-preto p-7 text-white justify-between items-center">
             <div>
                 <div className="flex flex-row items-center mb-[-10px]">
                     <h1 className="font-josefin text-6xl mr-5">tuli</h1>

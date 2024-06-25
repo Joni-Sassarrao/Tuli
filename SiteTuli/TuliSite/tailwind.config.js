@@ -6,10 +6,14 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'josefin': ['Josefin Sans', 'sans-serif']
+      'josefin': ['Josefin Sans', 'sans-serif'],
+      'prompt': ['Prompt', 'sans-serif']
     },
-  extend: {},
+  extend: {
+    colors:{
+      'preto': 'rgba(0, 0, 0, 0.4)',
+    }
+  },
   },
   plugins: [],
- }
- 
+}

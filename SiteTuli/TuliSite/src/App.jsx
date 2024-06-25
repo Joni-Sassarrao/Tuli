@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Componentes/Header";
 
-function App() {
+export default function App() {
   return ( 
     <>
     <Header/>
@@ -9,5 +9,3 @@ function App() {
     </>
   )
 }
-
-export default App;
