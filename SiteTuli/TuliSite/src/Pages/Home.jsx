@@ -81,7 +81,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-36">
             <div>
                 <div className="bg-white shadow-ShadowCard w-[353px] h-[340px] rounded-3xl mb-6">
                     <div className="flex items-start w-full">
@@ -120,11 +120,26 @@ export default function Home() {
             </div>
             <div className="ml-10">
                 <div className="bg-white shadow-ShadowCard w-[353px] h-[596px] rounded-3xl">
-                    <img className="mb-7 w-full" src="/mulher10.svg"/>
-                    <div className="m-4 font-prompt">
-                        <h1 className="mb-7 text-xl text-gray-900">Limpeza de Pele </h1>
+                    <img className="mb-10 w-full" src="/mulher10.svg"/>
+                    <div className="m-4 font-prompt flex flex-col">
+                        <h1 className="mb-10 text-xl text-gray-900">Limpeza de Pele </h1>
                         <p className="text-[#333333] text-lg">Procedimento estético para remover impurezas da pele e promover sua revitalização..</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div className="flex justify-center shadow-md">
+            <div>
+                <div>
+                    <img className="relative" src={"/retangulo.svg"}/>
+                </div>
+            </div>
+            <div className="absolute font-josefin ">
+                <div>
+                    <h1 className="mt-14 text-6xl text-white">FAÇA DOWNLOAD</h1>
+                </div>
+                <div className="flex justify-center mt-16">
+                    <button className="hover:shadow-ShadowButton hover:duration-100 hover:bg-[#a11f5a] p-4 w-48 bg-[#B22D69] text-white text-3xl rounded-md">Baixar</button>
                 </div>
             </div>
         </div>
