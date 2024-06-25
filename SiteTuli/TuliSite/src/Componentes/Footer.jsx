@@ -23,7 +23,7 @@ export default function Footer(){
                     <h1>Tratamentos de estrias</h1>
                 </div>
                 <div className="flex flex-col font-josefin text-2xl text-[#796E6C]">
-                    <h1>Tratamento de microvasos</h1>
+                    <h1>Tratamento de microvasos do kaneto</h1>
                     <h1>Eletrolifting</h1>
                     <h1>Dreanagem linfática</h1>
                     <h1>Harmonização facil</h1>
@@ -36,7 +36,7 @@ export default function Footer(){
                     <h1>outros...</h1>
                 </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-10">
                 <span className="font-josefin text-[#796E6C] text-xl">www.tuli.com.br © 2024</span>
             </div>
         </div>
