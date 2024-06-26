@@ -5,7 +5,7 @@ export default function Home() {
         <>
         <div>
             <img className="w-full" src={"/fundotela1.svg"}/>
-            <h1 className="absolute bottom-10 right-1 font-josefin m-10 w-[1200px] text-end text-[#CA1C63] text-6xl">A BELEZA QUE VOCÊ DESEJA, COM A SEGURANÇA QUE VOCÊ MERECE.</h1>
+            <h1 className="absolute top-[600px] right-1 font-josefin m-10 w-[1200px] text-end text-[#CA1C63] text-6xl">A BELEZA QUE VOCÊ DESEJA, COM A SEGURANÇA QUE VOCÊ MERECE.</h1>
             <img className="absolute bottom-[-70px] right-[500px]" src={"/seta2.svg"}/>
         </div>
         <div className="absolute w-full h-48 bg-[#CA1C63] opacity-60"></div>
