@@ -4,17 +4,17 @@ export default function beneficios(){
     return(
         <>
         <div>
-            <img className="absolute w-full" src={"/fundotela5.svg"}/>
+            <img className="w-full" src={"/fundotela5.svg"}/>
             <div className="flex justify-end">
                 <h1 className="absolute mr-[50px] top-[550px] w-[800px] font-josefin text-9xl text-[#CA1C63]">BENEFÍCIOS DE SER TULI</h1>
             </div>
         </div>
         <div>
             <div className="flex justify-center">
-                <h1 className="relative top-[1400px] font-josefin text-7xl text-[#CA1C63]">Planos de Fidelidade para Médicos</h1>
+                <h1 className="relative mt-[200px] font-josefin text-7xl text-[#CA1C63]">Planos de Fidelidade para Médicos</h1>
             </div>
             <div>
-                <div className="relative top-[1500px]">
+                <div className="relative top-[150px]">
                     <div className="p-4 m-4 flex justify-evenly">
                         <div className="flex items-start flex-col w-[400px] h-[400px] shadow-ShadowCard rounded-2xl bg-[#FBFBFB]">
                             <div className="m-4">
@@ -60,12 +60,12 @@ export default function beneficios(){
                 </div>
             </div>
             <div>
-                <div className="top-[1600px] relative w-full h-[200px] bg-rosa flex items-center justify-center">
+                <div className="top-[250px] relative w-full h-[200px] bg-rosa flex items-center justify-center">
                     <div>
                         <h1 className="text-6xl text-[#CA1C63] font-josefin">BENEFÍCIOS</h1>
                     </div>
                 </div>
-                <div className="relative top-[1700px] h-[1400px]">
+                <div className="relative">
                     <div>
                         <img className="absolute w-full" src={"/tulipafundo.svg"}/>
                     </div>
@@ -145,7 +145,7 @@ export default function beneficios(){
                 </div>
             </div>
         </div>
-        <div className="relative top-[1800px]">
+        <div className="relative top-[300px]">
             <Footer/>
         </div>
         </>
