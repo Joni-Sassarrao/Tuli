@@ -6,8 +6,8 @@ export default function QuemSomos() {
             <img className="w-full" src={"/fundotela2.svg"}/>
             <div className="flex items-end justify-end mb-[200px]">
                 <h1 className="absolute items-end right-[500px] w-[200px] top-[450px] font-josefin m-10 text-[#CA1C63] text-9xl">Quem Somos?</h1>
-                <p className="absolute items-end right-[190px] w-[500px] text-[#333333] top-[800px] font-prompt m-10 text-xl">Explore nossa essência e descubra como nosso app redefine a beleza e os procedimentos estéticos.</p>
-                <p className="absolute items-end right-[190px] w-[500px] text-[#333333] top-[940px] font-prompt m-10 text-xl">Role para baixo e conheça mais sobre nós.</p>
+                <p className="absolute items-end right-[90px] w-[600px] text-[#333333] top-[800px] font-prompt m-10 text-3xl">Explore nossa essência e descubra como nosso app redefine a beleza e os procedimentos estéticos.</p>
+                <p className="absolute items-end right-[90px] w-[600px] text-[#333333] top-[940px] font-prompt m-10 text-3xl">Role para baixo e conheça mais sobre nós.</p>
                 <img className="absolute right-[450px] bottom-[-250px]" src={"/tulilogorosa.svg"}/>
             </div>
             <div className="absolute bottom-[-1500px] w-full h-48 bg-[#CA1C63] opacity-60 mt-[-50px]"></div>
