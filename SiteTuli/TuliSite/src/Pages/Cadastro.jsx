@@ -15,28 +15,28 @@ import Footer from '../Componentes/Footer'
             </div>
             <div className="absolute m-10 top-[200px]">
                 <div className="mb-20">
-                    <button onClick={Voltar} className="text-xl underline font-bold text-white">Voltar</button>
+                    <button onClick={Voltar} className="text-2xl underline font-bold text-white">Voltar</button>
                 </div>
-                <div className="text-[#CA1C63] font-josefin mb-10 text-4xl w-[500px]">
+                <div className="text-[#CA1C63] font-josefin mb-10 text-5xl w-[500px]">
                     <h1>Faça parte do nosso trabalho:</h1>
                 </div>
                 <form className="mb-16">
                 <div className="mb-5 font-josefin">
                     <div className="mb-5">
-                        <label type="name" className="block mb-1 text-xl font-medium text-[#CA1C63]">Nome Completo:</label>
-                        <input type="nome" className="bg-white shadow-ShadowCard border text-sm rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: Julia Silva"/>
+                        <label type="name" className="block mb-1 text-3xl font-medium text-[#CA1C63]">Nome Completo:</label>
+                        <input type="name" className="bg-white shadow-ShadowCard border text-xl rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: Julia Silva"/>
                     </div>
                     <div className="mb-5">
-                        <label type="phone" className="block mb-1 text-xl font-medium text-[#CA1C63]">Celular:</label>
-                        <input type="phone" className="bg-white shadow-ShadowCard border text-sm rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: 11 99999-9999"/>
+                        <label type="tel" className="block mb-1 text-3xl font-medium text-[#CA1C63]">Celular:</label>
+                        <input type="tel" className="bg-white shadow-ShadowCard border text-xl rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: 11 99999-9999"/>
                     </div>
                     <div className="mb-5">
-                        <label type="email" className="block mb-1 text-xl font-medium text-[#CA1C63]">Nome Completo:</label>
-                        <input type="email" className="bg-white shadow-ShadowCard border text-sm rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: juliasilva@email.com"/>
+                        <label type="email" className="block mb-1 text-3xl font-medium text-[#CA1C63]">Nome Completo:</label>
+                        <input type="email" className="bg-white shadow-ShadowCard border text-xl rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: juliasilva@email.com"/>
                     </div>
                     <div className="mb-5">
-                        <label type="name" className="block mb-1 text-xl font-medium text-[#CA1C63]">Currículo PDF:</label>
-                        <input type="nome" className="bg-white shadow-ShadowCard border text-sm rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: Documento"/>
+                        <label type="arquivo" className="block mb-1 text-3xl font-medium text-[#CA1C63]">Currículo PDF:</label>
+                        <input type="arquivo" className="bg-white shadow-ShadowCard border text-xl rounded-[5px] w-[400px] p-2.5 dark:bg-white dark:placeholder-gray-400 dark:text-black" placeholder="Ex: Documento"/>
                     </div>
                 </div>
                 </form>

@@ -8,6 +8,7 @@ import Especialista from './Pages/Especialista.jsx'
 import QuemSomos from './Pages/QuemSomos.jsx'
 import PageNotFound from './Pages/PageNotFound.jsx'
 import Cadastro from './Pages/Cadastro.jsx'
+import Beneficio from './Pages/Beneficios.jsx'
 
 const router = createBrowserRouter(
   [
@@ -17,7 +18,8 @@ const router = createBrowserRouter(
       children: [
         {index: true, element: <Home/>},
         {path: 'especialista', element: <Especialista/>},
-        {path: 'especialista/:id', element: <Cadastro/>},
+        {path: 'especialista/cadastro', element: <Cadastro/>},
+        {path: 'especialista/beneficios', element: <Beneficio/>},
         {path: 'quemsomos', element: <QuemSomos/>},
         {path: '*', element: <PageNotFound/>}
       ]
