@@ -17,6 +17,7 @@ export default {
     },
     colors:{
       'preto': 'rgba(0, 0, 0, 0.4)',
+      'rosa': 'rgba(255, 125, 157, 0.12)'
     }
   },
   },
