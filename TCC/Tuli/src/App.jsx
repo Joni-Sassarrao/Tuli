@@ -1,11 +1,12 @@
 import Header from "./Componentes/Header"
+import { Outlet } from "react-router-dom"
 
 function App() {
 
   return (
     <>
     <Header/>
-    <h1>a9ijwf9ij</h1>
+    <Outlet/>
     </>
   )
 }
