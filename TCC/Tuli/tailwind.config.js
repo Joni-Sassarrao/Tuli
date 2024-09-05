@@ -13,7 +13,9 @@ export default {
       },
       colors: {
         'fundo1': "#D9B1AD",
-        'texto1': "#595859"
+        'funto2': "#F2DFDF",
+        'texto1': "#595859",
+        'texto2': "#A95858",
       }
     },
   },
