@@ -13,7 +13,8 @@ export default {
       },
       colors: {
         'fundo1': "#D9B1AD",
-        'funto2': "#F2DFDF",
+        'fundo2': '#F2DFDF',
+        'fundo2(o)': "rgba(242, 223, 223, 0.5)",
         'texto1': "#595859",
         'texto2': "#A95858",
       }
