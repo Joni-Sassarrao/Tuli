@@ -9,44 +9,48 @@ export default function Home(){
             </div>
             <img className="w-[35%] mt-[3px]" src={"/mulheres1tela.svg"}/>
         </div>
-        <div className="bg-fundo1 h-[299px] w-auto"></div>
+        <div className="bg-fundo1 h-[180px] w-auto"></div>
         <div className="flex mb-28">
-            <img className="relative w-2/5 -mt-20 ml-28" src={"/idosa.svg"}/>
+            <img className="relative w-1/3 -mt-20 ml-60" src={"/idosa.svg"}/>
             <div className="flex flex-col ml-[70px] p-14 w-[30rem]">
                 <h1 className="text-texto2 mb-10 font-nunito font-bold text-4xl">A beleza ao seu alcance</h1>
                 <p className="mb-8 font-prompt text-texto1 text-lg">Em um único aplicativo, encontre o melhor profissional de estética, agende suas consultas de forma prática e receba cuidados personalizados.</p>
                 <p className="font-prompt text-texto1 text-lg">Para melhor sua autoestima, junte-se a nós e descubra um novo jeito de cuidar da sua beleza.</p>
             </div>
         </div>
-        <div className="flex justify-evenly bg-fundo2(o) h-[200px] p-5">
-            <div>
-                <div className="bg-fundo2 h-20 w-20 rounded-full absolute"></div>
-                <img className="relative" src={"/confiabilidade.svg"}/>
-                <div className="flex flex-col">
-                    <p>Confiabilidade</p>
+        <div className="flex justify-evenly bg-fundo2(o) h-[260px] p-5">
+            <div className="mt-5">
+                <div className="bg-fundo2 h-32 w-32 rounded-full absolute"></div>
+                <img className="relative ml-16" src={"/confiabilidade.svg"}/>
+                <div className="flex flex-col mt-4">
+                    <p className="font-prompt text-texto2 -ml-1 text-2xl">Confiabilidade</p>
                 </div>
             </div>
-            <div>
-                <div className="bg-fundo2 h-20 w-20 rounded-full absolute"></div>
-                <img className="relative" src={"/consultas.svg"}/>
-                <div className="flex flex-col">
-                    <p>Agende Consultas</p>
+            <div className="mt-5">
+                <div className="bg-fundo2 h-32 w-32 rounded-full absolute"></div>
+                <img className="relative ml-20" src={"/consultas.svg"}/>
+                <div className="flex flex-col mt-4">
+                    <p className="font-prompt text-texto2 -ml-5 text-2xl">Agende Consultas</p>
                 </div>
             </div>
-            <div>
-                <div className="bg-fundo2 h-20 w-20 rounded-full absolute"></div>
-                <img className="relative" src={"/profissionais.svg"}/>
-                <div className="flex flex-col">
-                    <p>Melhores Profissionais</p>
+            <div className="mt-5">
+                <div className="bg-fundo2 h-32 w-32 rounded-full absolute"></div>
+                <img className="relative mt-8 ml-20" src={"/profissionais.svg"}/>
+                <div className="flex flex-col mt-4">
+                    <p className="font-prompt text-texto2 -ml-5 text-2xl">Melhores Profissionais</p>
                 </div>
             </div>
-            <div>
-                <div className="bg-fundo2 h-20 w-20 rounded-full absolute"></div>
-                <img className="relative" src={"/servicos.svg"}/>
-                <div className="flex flex-col">
-                    <p>Diversas Opções de Serviços</p>
+            <div className="mt-5">
+                <div className="bg-fundo2 h-32 w-32 rounded-full absolute"></div>
+                <img className="relative mt-3 ml-24" src={"/servicos.svg"}/>
+                <div className="flex flex-col mt-5">
+                    <p className="font-prompt text-texto2 text-center -ml-20 text-2xl w-80">Diversas Opções de Serviços</p>
                 </div>
             </div>
+        </div>
+        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-44">Nossos serviços especializados incluem:</h1>
+        <div>
+            
         </div>
         </>
     )
