@@ -48,13 +48,20 @@ export default function Home(){
                 </div>
             </div>
         </div>
-        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-44">Nossos serviços especializados incluem:</h1>
+        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-44 mb-20">Nossos serviços especializados incluem:</h1>
         <div className="flex justify-center mb-10">
             <div className="w-1/4 rounded-3xl shadow-Card">
                 <img className="w-full" src={'/toxina.svg'}/>
                 <div className="flex flex-col justify-center p-5">
                     <h2 className="text-texto2 text-xl font-prompt mb-5">Toxina Botulíica</h2>
                     <p className="text-texto3 text-lg font-prompt">Reduz rugas e linhas de expressão ao relaxar temporariamente os músculos faciais.</p>
+                </div>
+            </div>
+            <div className="flex h-1/6 w-2/6 rounded-[3rem] shadow-Card">
+                <img className="w" src={'/bichectomia.svg'}/>
+                <div className="w-1/4">
+                    <h2>Bichectomia</h2>
+                    <p>Cirurgia para remoção das bolsas de gordura nasbochechas, visando afinar o rosto.</p>
                 </div>
             </div>
         </div>
