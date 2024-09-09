@@ -48,20 +48,33 @@ export default function Home(){
                 </div>
             </div>
         </div>
-        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-44 mb-20">Nossos serviços especializados incluem:</h1>
+        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-36 mb-20">Nossos serviços especializados incluem:</h1>
         <div className="flex justify-center mb-10">
-            <div className="w-1/4 rounded-3xl shadow-Card">
-                <img className="w-full" src={'/toxina.svg'}/>
+            <div className="w-[350px] h-[450px] rounded-3xl shadow-Card">
+                <img className="w-auto" src={'/toxina.svg'}/>
                 <div className="flex flex-col justify-center p-5">
-                    <h2 className="text-texto2 text-xl font-prompt mb-5">Toxina Botulíica</h2>
+                    <h2 className="text-texto2 text-xl font-prompt mb-5">Toxina Botulínica</h2>
                     <p className="text-texto3 text-lg font-prompt">Reduz rugas e linhas de expressão ao relaxar temporariamente os músculos faciais.</p>
                 </div>
             </div>
-            <div className="flex h-1/6 w-2/6 rounded-[3rem] shadow-Card">
-                <img className="w" src={'/bichectomia.svg'}/>
-                <div className="w-1/4">
-                    <h2>Bichectomia</h2>
-                    <p>Cirurgia para remoção das bolsas de gordura nasbochechas, visando afinar o rosto.</p>
+            <div className="flex flex-col justify-between ml-10">
+                <div className="flex w-[420px] rounded-[1.4rem] shadow-Card">
+                    <div className="flex justify-start w-full">
+                        <img className="w-auto" src={'/bichectomia.svg'}/>
+                    </div>
+                    <div className="p-5">
+                        <h2 className="text-texto2 text-xl font-prompt mb-5">Bichectomia</h2>
+                        <p className="text-texto3 text-lg font-prompt">Cirurgia para remoção das bolsas de gordura nasbochechas, visando afinar o rosto.</p>
+                    </div>
+                </div>
+                <div className="flex w-[420px] rounded-[1.4rem] shadow-Card">
+                    <div className="p-5">
+                        <h2 className="text-texto2 text-xl font-prompt mb-5">Preenchimento Labial</h2>
+                        <p className="text-texto3 text-lg font-prompt">Aumenta o volume dos lábios usando substâncias como ácido hialurônico.</p>
+                    </div>
+                    <div className="flex justify-end w-full">
+                        <img className="w-auto" src={'/labial.svg'}/>
+                    </div>
                 </div>
             </div>
         </div>
