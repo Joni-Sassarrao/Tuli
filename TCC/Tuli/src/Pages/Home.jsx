@@ -95,6 +95,22 @@ export default function Home(){
                     </div>
                 </div>
             </div>
+            <div>
+                <div>
+                    <img src="" alt="" />
+                    <div>
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="" alt="" />
+                    </div>
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
         </div>
         </>
     )   

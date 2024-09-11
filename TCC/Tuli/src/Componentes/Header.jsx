@@ -4,6 +4,7 @@ import Logo from "/Tuli.svg"
 export default function Header(){
     return(
         <>
+        
         <div className="flex w-full bg-fundo1 font-josefin text-white p-7 justify-between items-center">
             <div>
                 <div className="flex flex-row items-center">
