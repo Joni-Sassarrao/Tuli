@@ -143,6 +143,9 @@ export default function Home(){
                 </div>
             </div>
         </div>
+        <div>
+            <img className="w-screen" src={'/rosa.svg'} alt="" />
+        </div>
         </>
     )   
 }
