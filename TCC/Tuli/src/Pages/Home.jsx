@@ -77,6 +77,24 @@ export default function Home(){
                     </div>
                 </div>
             </div>
+            <div className="flex flex-col justify-between ml-10">
+                <div className="w-[300px] rounded-[1.4rem] shadow-Card">
+                    <img className="w-auto" src={'peeling.svg'}/>
+                    <div className="p-3">
+                        <h2 className="text-texto2 font-promtp text-xl mb-4">Peeling Químico</h2>
+                        <p className="text-texto3 font-prompt text-lg">Usa ácidos para esfoliar a pele, melhorando a textura e reduzindo imperfeições.</p>
+                    </div>
+                </div>
+                <div className="flex h-[140px] w-[320px] rounded-[1.4rem] shadow-Card">
+                    <div className="flex justify-start w-full">
+                        <img src={'/microagulhamento.svg'}/>
+                    </div>
+                    <div className="mr-2">
+                        <h2 className="text-texto2 font-prompt text-xl mt-3 w-[210px]">Microagulhamento</h2>
+                        <p className="text-texto3 font-prompt text-lg mt-1 w-[220px]">Utiliza agulhas finas para estimular a produção de colágeno na pele</p>
+                    </div>
+                </div>
+            </div>
         </div>
         </>
     )   
