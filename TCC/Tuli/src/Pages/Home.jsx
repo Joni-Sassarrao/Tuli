@@ -1,3 +1,5 @@
+import Footer from "../Componentes/Footer"
+
 export default function Home(){
     return(
         <>
@@ -143,9 +145,17 @@ export default function Home(){
                 </div>
             </div>
         </div>
-        <div>
-            <img className="w-screen" src={'/rosa.svg'} alt="" />
+        <div className="flex">
+            <div>
+                <img className="w-full absolute" src={'/rosa.svg'}/>
+                <img className="relative w-[65rem]" src={'/maocelular.svg'}/>
+            </div>
+            <div className="absolute flex flex-col right-44 mt-[25rem] w-[50rem]">
+                <h1 className="font-nunito text-texto2 text-8xl mb-24">Faça o download do nosso App!</h1>
+                <h2 className="font-nunito text-texto1 text-6xl ml-16">Baixe o app e agende seus tratamentos estéticos com facilidade.</h2>
+            </div>
         </div>
+        <Footer/>
         </>
     )   
 }
