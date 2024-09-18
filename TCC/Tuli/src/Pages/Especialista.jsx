@@ -1,7 +1,9 @@
 export default function Especialista(){
     return(
         <>
-        <h1>Especialista</h1>
+        <div className="h-[25rem] bg-black">
+
+        </div>
         </>
     )
 }
