@@ -5,7 +5,7 @@ export default function Footer(){
             <div className="p-20 -ml-9">
                 <div className="flex">
                     <h1 className="text-white text-9xl font-josefin mr-5">tuli</h1>
-                    <img className="w-[45px] mt-[-35px]" src={'Tuli.svg'}/>
+                    <img className="w-[45px] mt-[-35px]" src={'/Tuli.svg'}/>
                 </div>
                 <div className="flex justify-end -mt-[6rem]">
                     <div className="flex justify-between w-[22rem]">

@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         'josefin': ['Josefin Sans', 'sans-serif'],
         'nunito': ['Nunito', 'sans-serif'],
-        'prompt': ['Prompt', 'sans-serif']
+        'prompt': ['Prompt', 'sans-serif'],
+        'fira' : ['Fira Code', 'monospace'],
       },
       colors: {
         'fundo1': '#D9B1AD',
