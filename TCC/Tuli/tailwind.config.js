@@ -16,6 +16,7 @@ export default {
         'fundo1(o)': 'rgba(217, 177, 173, 0.24)',
         'fundo2': '#F2DFDF',
         'fundo2(o)': 'rgba(242, 223, 223, 0.5)',
+        'fundo2(1)': 'rgba(242, 223, 223, 0.4)',
         'fundo3': 'rgba(251,247,244,1) 100%',
         'texto1': '#595859',
         'texto2': '#A95858',
@@ -23,6 +24,8 @@ export default {
       },
       boxShadow: {
         'Card': '0 3px 1px rgba(0, 0, 0, 0.12), 0 4px 2px rgba(1, 0, 0, 0.12)',
+        'Botao': 'rgba(0, 0, 0, 0.3) 0px 2px 6px 0px',
+        'Botao-ativado': 'rgba(0, 0, 0, 0.3) 0px 1px 4px 0px',
       }
     },
   },
