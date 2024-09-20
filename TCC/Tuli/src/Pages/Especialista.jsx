@@ -1,4 +1,3 @@
-import Footer from "../Componentes/Footer"
 import { Link } from "react-router-dom"
 
 export default function Especialista(){
@@ -37,7 +36,6 @@ export default function Especialista(){
                 </button>
             </Link>
         </div>
-        <Footer/>
         </>
     )
 }
