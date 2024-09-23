@@ -63,7 +63,7 @@ export default function Cadastro(){
                     <label className='font-prompt text-texto1 text-3xl mb-2'>Telefone:</label>
                     <input className='w-[40rem] p-1 rounded-lg border-fundo1 border-2' onChange={(e) => setTel(e.target.value)} value={tel} type="tel"/>
                 </div>
-                <button className='bg-texto2 text-white text-lg font-prompt font-medium p-5 w-48 rounded-lg hover:shadow-Botao active:shadow-Botao-ativado' type='submit' value='Enviar'>Solicitar contato</button>
+                <button className='bg-texto2 text-white text-lg font-prompt font-medium p-5 w-48 rounded-lg  hover:shadow-Botao active:shadow-Botao-ativado' type='submit' value='Enviar'>Solicitar contato</button>
             </form>
         </div>
         </>
