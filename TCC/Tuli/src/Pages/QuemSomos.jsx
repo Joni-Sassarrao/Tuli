@@ -8,7 +8,7 @@ export default function QuemSomos(){
         <>
         <ImageQuemSomos/>
         <img className="w-screen absolute" src={'curva.svg'}/>
-        <div className="relative h-64 bg-gradient-to-r from-fundo2 to-white top-[70rem]"></div>
+        <div className="relative h-64 bg-gradient-to-r from-fundo1 to-white top-[70rem]"></div>
         <ImageQuemSomos2/>
         <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-72 mb-32">Pilares do nosso Cuidado</h1>
         <ContainerQuemSomos>

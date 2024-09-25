@@ -5,3 +5,30 @@
 ::-webkit-scrollbar{
     width: 0px;
 }
+
+.bevel {    
+	background: #Af2; /* fallback */
+	background:
+		linear-gradient(135deg, transparent 5px, #Af2 0) top left,
+		linear-gradient(225deg, transparent 5px, #Af2 0) top right,
+		linear-gradient(315deg, transparent 5px, #Af2 0) bottom right,
+		linear-gradient(45deg,  transparent 5px, #Af2 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.bevel .round {
+	background-image:
+		radial-gradient(circle at 0 0, rgba(204,0,0,0) 30px, #Af2 15px),
+		radial-gradient(circle at 100% 0, rgba(204,0,0,0) 30px, #Af2  15px),
+		radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 30px, #Af2 15px),
+		radial-gradient(circle at 0 100%, rgba(204,0,0,0) 30px, #Af2 15px);
+}
+
+.exemplo {
+    width: 200px;
+    margin: 15px auto;
+    padding:13px 15px;
+    color: #0c0c0c;
+    line-height:1.5;
+}
