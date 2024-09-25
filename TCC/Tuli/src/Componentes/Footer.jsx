@@ -2,7 +2,7 @@ export default function Footer(){
     return(
         <>
         <div className="bg-fundo1 w-screen">
-            <div className="flex justify-between p-20 -ml-9">
+            <div className="flex justify-between px-20 p-10 -ml-9">
                 <div className="flex">
                     <h1 className="text-white text-5xl font-josefin mr-5">tuli</h1>
                     <img className="w-[1.5rem] -mt-[1.5rem]" src={'/Tuli.svg'}/>
