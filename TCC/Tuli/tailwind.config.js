@@ -20,6 +20,8 @@ export default {
         'fundo2(1)': 'rgba(242, 223, 223, 0.4)',
         'fundo3': 'rgba(251,247,244,1) 100%',
         'fundo4': '#B36C6C',
+        'fundo5': 'rgba(251, 251, 251, 0.9)',
+        'fundo6': '#FBF7F4',
         'texto1': '#595859',
         'texto2': '#A95858',
         'texto3': 'rgba(51, 51, 51, 0.8)',

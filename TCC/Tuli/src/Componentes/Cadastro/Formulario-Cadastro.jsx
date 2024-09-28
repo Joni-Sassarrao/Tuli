@@ -34,21 +34,21 @@ export default function FormularioCadastro(){
 
     return(
         <>
-            <form className='grid grid-cols-1 justify-items-center mt-[8rem]' onSubmit={sendEmail}>
-                <div className='flex flex-col'>
-                    <label className='font-prompt text-texto1 text-3xl mb-2'>Nome:</label>
-                    <input className='w-[40rem] p-1 mb-5 rounded-lg border-fundo1 border-2' onChange={(e) => setName(e.target.value)} value={name} type="text"/>
-                </div>
-                <div className='flex flex-col'>
-                    <label className='font-prompt text-texto1 text-3xl mb-2'>Email:</label>
-                    <input className='w-[40rem] p-1 mb-5 rounded-lg border-fundo1 border-2' onChange={(e) => setEmail(e.target.value)} value={email} type="email"/>
-                </div>
-                <div className='flex flex-col mb-20'>
-                    <label className='font-prompt text-texto1 text-3xl mb-2'>Telefone:</label>
-                    <input className='w-[40rem] p-1 rounded-lg border-fundo1 border-2' onChange={(e) => setTel(e.target.value)} value={tel} type="tel"/>
-                </div>
-                <button className='bg-texto2 text-white text-lg font-prompt font-medium p-5 w-48 rounded-lg  hover:shadow-Botao active:shadow-Botao-ativado' type='submit' value='Enviar'>Solicitar contato</button>
-            </form>
+        <form className='grid grid-cols-1 justify-items-center mt-[8rem]' onSubmit={sendEmail}>
+            <div className='flex flex-col'>
+                <label className='font-prompt text-texto1 text-3xl mb-2'>Nome:</label>
+                <input className='w-[40rem] p-1 mb-5 rounded-lg border-fundo1 border-2' onChange={(e) => setName(e.target.value)} value={name} type="text"/>
+            </div>
+            <div className='flex flex-col'>
+                <label className='font-prompt text-texto1 text-3xl mb-2'>Email:</label>
+                <input className='w-[40rem] p-1 mb-5 rounded-lg border-fundo1 border-2' onChange={(e) => setEmail(e.target.value)} value={email} type="email"/>
+            </div>
+            <div className='flex flex-col mb-20'>
+                <label className='font-prompt text-texto1 text-3xl mb-2'>Telefone:</label>
+                <input className='w-[40rem] p-1 rounded-lg border-fundo1 border-2' onChange={(e) => setTel(e.target.value)} value={tel} type="tel"/>
+            </div>
+            <button className='bg-texto2 text-white text-lg font-prompt font-medium p-5 w-48 rounded-lg  hover:shadow-Botao active:shadow-Botao-ativado' type='submit' value='Enviar'>Solicitar contato</button>
+        </form>
         </>
     )
 }
