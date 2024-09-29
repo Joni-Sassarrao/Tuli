@@ -22,6 +22,7 @@ export default {
         'fundo4': '#B36C6C',
         'fundo5': 'rgba(251, 251, 251, 0.9)',
         'fundo6': '#FBF7F4',
+        'fundo7': 'rgba(225, 205, 181, 0.15)',
         'texto1': '#595859',
         'texto2': '#A95858',
         'texto3': 'rgba(51, 51, 51, 0.8)',
