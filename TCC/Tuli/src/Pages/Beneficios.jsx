@@ -1,3 +1,4 @@
+import { ScrollRestoration } from 'react-router-dom'
 import ContainerBeneficios from "../Componentes/Beneficios/Container-Beneficios"
 import ContainerBeneficios2 from "../Componentes/Beneficios/Container-Beneficios2"
 import ContainerBeneficios3 from "../Componentes/Beneficios/Container-Beneficios3"
@@ -10,6 +11,7 @@ import InsideContainerBeneficios42 from "../Componentes/Beneficios/Inside-Contai
 export default function Beneficios(){
     return(
         <>
+        <ScrollRestoration/>
         <ContainerBeneficios>
         <InsideContainerBeneficios/>
         </ContainerBeneficios>
