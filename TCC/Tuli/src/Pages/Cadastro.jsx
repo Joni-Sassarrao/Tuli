@@ -5,6 +5,7 @@ import InsideBotaoCadastro from '../Componentes/Cadastro/Inside-Botao-Cadastro'
 import FormularioCadastro from '../Componentes/Cadastro/Formulario-Cadastro'
 
 export default function Cadastro(){
+
     return(
         <>
         <ScrollRestoration/>
