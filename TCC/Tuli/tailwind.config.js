@@ -32,7 +32,12 @@ export default {
         'Card': '0 3px 1px rgba(0, 0, 0, 0.12), 0 4px 2px rgba(1, 0, 0, 0.12)',
         'Botao': 'rgba(0, 0, 0, 0.3) 0px 2px 6px 0px',
         'Botao-ativado': 'rgba(0, 0, 0, 0.3) 0px 1px 4px 0px',
-      }
+      },
+      screens: {
+        'desktop90' : '1500px',
+        'desktop100' : '1300px',
+        'desktop110' : '1200px',
+      },
     },
   },
   plugins: [],
