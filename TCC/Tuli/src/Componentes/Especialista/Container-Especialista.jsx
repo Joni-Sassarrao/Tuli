@@ -1,7 +1,7 @@
 export default function ContainerEspecialista({children}){
     return(
         <>
-        <div>
+        <div className="relative">
             {children}
         </div>
         </>
