@@ -37,6 +37,8 @@ export default {
         'desktop90' : '1500px',
         'desktop100' : '1300px',
         'desktop110' : '1200px',
+        'desktop125' : '1000px',
+        'desktop150' : '885px',
       },
     },
   },
