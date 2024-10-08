@@ -40,6 +40,7 @@ export default {
         'desktop125' : '1000px',
         'desktop150' : '885px',
         'desktop175' : '730px',
+        'desktop200' : '570px',
       },
     },
   },
