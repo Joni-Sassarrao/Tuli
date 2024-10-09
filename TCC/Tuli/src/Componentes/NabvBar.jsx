@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 export default function NavBar(){
     return(
         <nav>
-            <ul className='flex gap-10 text-2xl font-josefin max-desktop125:text-xl max-desktop150:text-base max-desktop175:text-sm'>
+            <ul className='flex gap-10 text-4xl font-josefin'>
                 <li><Link className='hover:underline' to={"/"}>Início</Link></li>
                 <li><Link className='hover:underline' to={"quemsomos"}>Quem Somos?</Link></li>
                 <li><Link className='hover:underline' to={"especialista"}>Especialista</Link></li>
