@@ -20,7 +20,7 @@ export default function Home(){
         <ContainerHome>
         <InsideContainerHome/>
         </ContainerHome>
-        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-36 mb-20">Nossos serviços especializados incluem:</h1>
+        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-36 mb-20 max-desktop5:text-5xl">Nossos serviços especializados incluem:</h1>
         <ContainerHome2>
         <InsideContainerHome2/>
         </ContainerHome2>
