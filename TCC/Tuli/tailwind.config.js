@@ -40,6 +40,8 @@ export default {
         'desktop4': '1140px',
         'desktop5': '1065px',
         'desktop6': '968px',
+        'desktop7': '800px',
+        'desktop8': '769px',
       },
     },
   },
