@@ -19,7 +19,7 @@ export default function InsideContainerHome(){
             <div className="bg-fundo2 h-32 w-32 rounded-full absolute"></div>
             <img className="relative mt-8 ml-20" src={"/profissionais.svg"}/>
             <div className="flex flex-col mt-4">
-                <p className="font-prompt text-texto2 -ml-5 text-2xl">Melhores Profissionais</p>
+                <p className="font-prompt text-texto2 -ml-5 text-2xl max-desktop4:w-[12rem] max-desktop4:text-center max-desktop5:w-[12rem] max-desktop5:text-center">Melhores Profissionais</p>
             </div>
         </div>
         <div className="mt-5">

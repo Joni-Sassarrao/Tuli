@@ -1,7 +1,7 @@
 export default function InsideContainerHome3(){
     return(
         <>
-        <div className="flex flex-col justify-between mr-10 max-desktop5:ml-[11.7rem]">
+        <div className="flex flex-col justify-between mr-10 max-desktop5:ml-[8.9rem]">
             <div className="w-[320px] h-[300px] rounded-[1.4rem] shadow-Card max-desktop5:w-[300px] max-desktop5:h-[200px]">
                 <img className="w-auto max-desktop5:w-0" src={'/drenagem.svg'}/>
                 <div className="p-3">
@@ -19,7 +19,7 @@ export default function InsideContainerHome3(){
                 </div>
             </div>
         </div>
-        <div className="flex flex-col justify-between mr-10 max-desktop5:ml-[2.5rem]">
+        <div className="flex flex-col justify-between mr-10 max-desktop5:ml-[0.8rem]">
             <div className="flex w-[420px] rounded-[1.4rem] shadow-Card max-desktop5:w-[300px] max-desktop5:h-[200px] max-desktop5:mb-7">
                 <div className="flex justify-start w-full max-desktop5:w-0">
                     <img className="w-auto max-desktop5:w-5" src={'/lipospiracao.svg'}/>
@@ -39,7 +39,7 @@ export default function InsideContainerHome3(){
                 </div>
             </div>
         </div>
-        <div className="w-[350px] h-[460px] rounded-3xl shadow-Card max-desktop5:w-[300px] max-desktop5:h-[200px] max-desktop5:ml-[22rem] max-desktop5:mt-10">
+        <div className="w-[350px] h-[460px] rounded-3xl shadow-Card max-desktop5:w-[300px] max-desktop5:h-[200px] max-desktop5:ml-[20.5rem] max-desktop5:mt-10 max-desktop5.1:ml-[20rem]">
             <img className="w-auto max-desktop5:w-0" src={'/limpeza.svg'}/>
             <div className="flex flex-col justify-center p-5">
                 <h2 className="text-texto2 font-prompt text-xl mb-5">Limpeza de Pele </h2>
