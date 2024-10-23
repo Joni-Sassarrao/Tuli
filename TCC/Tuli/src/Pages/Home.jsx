@@ -19,7 +19,7 @@ export default function Home(){
         <ImageHome>
         <InsideImageHome/>
         </ImageHome>
-        <div className="bg-fundo1 h-[180px] w-auto"></div>
+        <div className="bg-fundo1 h-[180px] w-auto max-desktop8:h-[100px]"></div>
         <ImageHome2/>
         <ContainerHome>
         <InsideContainerHome/>
