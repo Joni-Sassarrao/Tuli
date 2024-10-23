@@ -8,6 +8,10 @@ import ContainerHome3 from "../Componentes/Home/Container-Home3"
 import InsideContainerHome from "../Componentes/Home/Inside-Container-Home"
 import InsideContainerHome2 from "../Componentes/Home/Inside-Container-Home2"
 import InsideContainerHome3 from "../Componentes/Home/Inside-Container-Home3"
+import InsideContainerHome2Media from "../Componentes/Home/Inside-Container-Home2Media"
+import InsideContainerHome3Media from "../Componentes/Home/Inside-Container-Home3Media"
+import InsideContainerHome21Media from "../Componentes/Home/Inside-Container-Home2.1Media"
+import InsideContainer31Media from "../Componentes/Home/Inside-Container-Home3.1Media"
 
 export default function Home(){
     return(
@@ -24,9 +28,16 @@ export default function Home(){
         <ContainerHome2>
         <InsideContainerHome2/>
         </ContainerHome2>
+        <InsideContainerHome2Media/>
+        <InsideContainerHome21Media/>
         <ContainerHome3>
         <InsideContainerHome3/>
         </ContainerHome3>
+        <InsideContainerHome3Media/>
+        <InsideContainer31Media/>
+        <div className="flex justify-center mt-10 py-10 desktop5.1:hidden">
+            <div className="flex justify-center h-[7px] bg-fundo4 w-[80%] rounded-2xl"></div>
+        </div>
         <ImageHome3/>
         </>
     )   

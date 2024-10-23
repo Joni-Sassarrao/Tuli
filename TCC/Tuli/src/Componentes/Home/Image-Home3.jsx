@@ -7,7 +7,7 @@ export default function ImageHome3(){
                 <h1 className="font-nunito font-semibold text-texto2 text-6xl mb-24 max-desktop4:text-5xl">Faça o download do nosso App!</h1>
                 <h2 className="font-nunito font-medium text-texto1 text-4xl max-desktop4:text-3xl">Baixe o app e agende seus tratamentos estéticos com facilidade.</h2>
             </div>
-            <div className="desktop5.1:w-0">
+            <div className="desktop5.1:hidden">
                 <button className="bg-red-600 p-5 rounded-2xl mt-[7rem] w-[15rem] active:bg-red-800"> 
                     <a className="text-3xl active:text-white" href="https://tuli-eight.vercel.app/">
                         Clique aqui para fazer o Download!
