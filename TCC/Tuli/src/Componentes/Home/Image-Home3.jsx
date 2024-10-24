@@ -9,7 +9,7 @@ export default function ImageHome3(){
             </div>
             <div className="desktop5.1:hidden">
                 <button className="bg-red-600 p-5 rounded-2xl mt-[7rem] w-[15rem] active:bg-red-700 shadow-Botao-Dw active:shadow-Botao-DwAC duration-200"> 
-                    <a className="text-3xl active:text-white font-nunito" href="https://tuli-eight.vercel.app/">
+                    <a className="text-3xl active:text-white font-nunito font-bold" href="https://tuli-eight.vercel.app/">
                         Clique aqui para fazer o Download!
                     </a>
                 </button>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Header(){
     return(
         <>
-        <div className="flex w-full h-[7.5rem] bg-fundo1 font-josefin text-white p-7 justify-between items-center max-desktop4:h-[6rem]">
+        <div className="flex w-full h-[7.5rem] bg-fundo1 font-josefin text-white p-7 justify-between items-center max-desktop4:h-[6rem] max-desktop9:hidden">
             <div>
                 <Link to={'/'}>
                     <div className="flex flex-row items-center">
@@ -15,6 +15,16 @@ export default function Header(){
                 <div className="flex-col">
                     <h1 className="text-2xl max-desktop4:text-xl">tratamentos estéticos</h1>
                 </div>
+            </div>
+            <NavBar/>
+        </div>
+        <div className="flex w-full h-[7.5rem] bg-fundo1 font-josefin text-white p-7 justify-between items-center max-desktop4:h-[6rem] desktop9:hidden">
+            <div>
+                <Link to={'/'}>
+                    <div className="flex flex-row items-center">
+                        <img className="w-6 max-desktop4:w-7" src={'Tuli.svg'}/>
+                    </div>
+                </Link>
             </div>
             <NavBar/>
         </div>
