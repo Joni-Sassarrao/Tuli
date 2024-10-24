@@ -32,6 +32,8 @@ export default {
         'Card': '0 3px 1px rgba(0, 0, 0, 0.12), 0 4px 2px rgba(1, 0, 0, 0.12)',
         'Botao': 'rgba(0, 0, 0, 0.3) 0px 2px 6px 0px',
         'Botao-ativado': 'rgba(0, 0, 0, 0.3) 0px 1px 4px 0px',
+        'Botao-Dw': 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;',
+        'Botao-DwAC': 'rgba(0, 0, 0, 0.5) 0px 12px 25px, rgba(0, 0, 0, 0.5) 0px 10px 10px;'
       },
       screens: {
         'desktop1': '1500px',
