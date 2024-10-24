@@ -23,7 +23,7 @@ export default function NavBar(){
                 </div>
 
                 <div className={isNavOpen ? "MostrarMenu" : "EsconderMenu"}>
-                <div className="absolute top-0 left-0 px-5 py-5" onClick={() => setIsNavOpen(false)}>
+                <div className="absolute top-0 left-0 px-3 py-5 ml-1" onClick={() => setIsNavOpen(false)}>
                     <div className="w-5 h-[1px] bg-white transform rotate-45"></div>
                     <div className="w-5 h-[1px] bg-white transform -rotate-45"></div>
                 </div>
@@ -52,11 +52,10 @@ export default function NavBar(){
         height: 13.5rem;
         top: 0;
         right: 0;
-        background: #D9B1AD;
+        background: #B36C6C;
         z-index: 10;
         display: flex;
         flex-direction: column;
-        border: 1px solid white;
         transition: width 2s;
       }
     `}</style>
