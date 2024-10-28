@@ -45,6 +45,7 @@ export default {
         'desktop6': '968px',
         'desktop6.1': '880px',
         'desktop7': '800px',
+        'desktop7.1': '631px',  
         'desktop8': '769px',  
         'desktop9': '426px',  
       },
