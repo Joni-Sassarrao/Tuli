@@ -22,11 +22,11 @@ export default function InsideContainerHome3Media(){
             </div>
         </div>
         <div className="desktop9:hidden px-10">
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Drenagem linfática</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Mamoplastia</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Lipoaspiração</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Microagulhamento Capilar</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Limpeza de Pele</h2></li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Drenagem linfática</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Mamoplastia</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Lipoaspiração</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Microagulhamento Capilar</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Limpeza de Pele</li>
         </div>
         </>
     )

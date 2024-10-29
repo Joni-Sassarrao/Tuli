@@ -22,11 +22,11 @@ export default function InsideContainerHome2Media(){
             </div>
         </div>
         <div className="desktop9:hidden px-10">
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Toxina Botulínica</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Bichectomia</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Preenchimento Labial</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Peeling Químico</h2></li>
-            <li><h2 className="text-texto2 font-prompt text-xl mb-2">Microagulhamento</h2></li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Toxina Botulínica</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Bichectomia</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Preenchimento Labial</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Peeling Químico</li>
+            <li className="text-texto2 font-prompt text-xl mb-2">Microagulhamento</li>
         </div>
         </>
     )

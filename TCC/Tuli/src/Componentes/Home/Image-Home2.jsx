@@ -11,7 +11,7 @@ export default function ImageHome2(){
         </div>
         <div className="p-5 desktop8:hidden">
             <div className="flex flex-col max-desktop8:py-10 max-desktop8:justify-center max-desktop8:mt-2">
-                <h1 className="flex justify-center text-texto2 mb-10 font-nunito font-bold text-3xl">A beleza ao seu alcance</h1>
+                <h1 className="flex justify-center text-texto2 mb-10 font-nunito font-bold text-3xl max-desktop11:text-center">A beleza ao seu alcance</h1>
                 <div className="px-10">
                     <p className="mb-8 font-prompt text-texto1 text-base text-center">Em um único aplicativo, encontre o melhor profissional de estética, agende suas consultas de forma prática e receba cuidados personalizados.</p>
                     <p className="font-prompt text-texto1 text-base text-center">Para melhor sua autoestima, junte-se a nós e descubra um novo jeito de cuidar da sua beleza.</p>

@@ -48,6 +48,8 @@ export default {
         'desktop7.1': '631px',  
         'desktop8': '769px',  
         'desktop9': '426px',  
+        'desktop10': '376px',  
+        'desktop11': '321px',  
       },
     },
   },
