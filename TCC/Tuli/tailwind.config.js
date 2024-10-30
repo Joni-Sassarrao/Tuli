@@ -37,6 +37,7 @@ export default {
       },
       screens: {
         'desktop1': '1500px',
+        'desktop1.1': '1441px',
         'desktop2': '1300px',
         'desktop3': '1200px',
         'desktop4': '1140px',
@@ -50,6 +51,10 @@ export default {
         'desktop9': '426px',  
         'desktop10': '376px',  
         'desktop11': '321px',  
+        'desktop12': '2561px',  
+        'desktop13': '2210px',  
+        'desktop14': '1900px',  
+        'desktop15': '1700px',  
       },
     },
   },

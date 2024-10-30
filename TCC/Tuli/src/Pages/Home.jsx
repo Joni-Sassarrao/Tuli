@@ -24,7 +24,7 @@ export default function Home(){
         <ContainerHome>
         <InsideContainerHome/>
         </ContainerHome>
-        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-36 mb-20 max-desktop5:text-5xl max-desktop6:text-4xl max-desktop7.1:text-center max-desktop9:mb-5">Nossos serviços especializados incluem:</h1>
+        <h1 className="flex justify-center font-nunito font-semibold text-texto2 text-6xl mt-36 mb-20 max-desktop5:text-5xl max-desktop6:text-4xl max-desktop7.1:text-center max-desktop9:mb-5 max-desktop12:text-7xl max-desktop1.1:text-6xl">Nossos serviços especializados incluem:</h1>
         <ContainerHome2>
         <InsideContainerHome2/>
         </ContainerHome2>
