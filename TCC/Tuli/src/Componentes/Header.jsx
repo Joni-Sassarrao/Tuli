@@ -9,7 +9,7 @@ export default function Header(){
                 <Link to={'/'}>
                     <div className="flex flex-row items-center">
                         <h1 className="text-6xl mr-5 mb-[-10px] max-desktop4:text-5xl">tuli</h1>
-                        <img className="w-6 mt-[-10px] max-desktop4:w-5" src={'Tuli.svg'}/>
+                        <img className="w-6 mt-[-10px] max-desktop4:w-5" src={'/Tuli.svg'}/>
                     </div>
                 </Link>
                 <div className="flex-col">
@@ -22,7 +22,7 @@ export default function Header(){
             <div>
                 <Link to={'/'}>
                     <div className="flex flex-row items-center">
-                        <img className="w-6 max-desktop4:w-7" src={'Tuli.svg'}/>
+                        <img className="w-6 max-desktop4:w-7" src={'/Tuli.svg'}/>
                     </div>
                 </Link>
             </div>
