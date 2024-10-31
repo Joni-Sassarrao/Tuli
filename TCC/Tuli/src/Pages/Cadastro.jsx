@@ -13,8 +13,8 @@ export default function Cadastro(){
         <InsideBotaoCadastro/>
         </BotaoCadastro>
         <ContainerCadastro>
-        <h1 className='flex justify-center text-texto1 text-6xl font-nunito font-medium'>FAÇA PARTE DO</h1>
-        <h1 className='flex justify-center text-texto2 text-6xl font-nunito font-medium'>NOSSO TRABALHO:</h1>
+        <h1 className='flex justify-center text-texto1 text-6xl font-nunito font-medium max-desktop9:text-3xl'>FAÇA PARTE DO</h1>
+        <h1 className='flex justify-center text-texto2 text-6xl font-nunito font-medium max-desktop9:text-3xl'>NOSSO TRABALHO:</h1>
         <FormularioCadastro/>
         </ContainerCadastro>
         </>

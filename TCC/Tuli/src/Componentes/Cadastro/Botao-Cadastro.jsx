@@ -10,7 +10,7 @@ export default function BotaoCadastro({children}){
 
     return(
         <>
-        <button className='p-10 text-texto2 text-2xl underline mb-10' onClick={Voltar}>
+        <button className='p-10 text-texto2 text-2xl underline mb-10 max-desktop9:text-base' onClick={Voltar}>
             {children}
         </button>
         </>
