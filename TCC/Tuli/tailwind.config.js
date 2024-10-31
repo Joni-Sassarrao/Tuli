@@ -36,6 +36,7 @@ export default {
         'Botao-DwAC': 'rgba(0, 0, 0, 0.5) 0px 12px 25px, rgba(0, 0, 0, 0.5) 0px 10px 10px;'
       },
       screens: {
+        'desktop0.1': '1550px',
         'desktop1': '1500px',
         'desktop1.1': '1441px',
         'desktop2': '1300px',
@@ -54,6 +55,7 @@ export default {
         'desktop12': '2561px',  
         'desktop13': '2210px',  
         'desktop14': '1900px',  
+        'desktop14.1': '1921px',  
         'desktop15': '1700px',  
       },
     },
