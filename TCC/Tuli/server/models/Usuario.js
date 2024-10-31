@@ -7,6 +7,6 @@ const usuarioSchema = new mongoose.Schema({
     tel: {type: String, required: true}
 })
 
-const usuario = mongoose.model('usuarios', usuarioSchema)
+const Usuario = mongoose.model('usuarios', usuarioSchema)
 
-export default usuario
+export default Usuario
