@@ -34,7 +34,7 @@ export default function FormularioCadastro(){
 
     return(
         <>
-        <form className='grid grid-cols-1 justify-items-center mt-[8rem] max-desktop9:mt-[6rem] max-desktop11:mt-[5rem]' onSubmit={sendEmail} method="post" action="http://localhost:3000/usuarios">
+        <form className='grid grid-cols-1 justify-items-center mt-[8rem] max-desktop9:mt-[6rem] max-desktop11:mt-[5rem]' method="post" action="http://localhost:3000/usuarios">
             <div className='flex flex-col'>
                 <label className='font-prompt text-texto1 text-3xl mb-2 max-desktop9:text-xl'>Nome:</label>
                 <input className='w-[40rem] p-1 mb-5 rounded-lg border-fundo1 border-2 max-desktop9:w-[20rem] max-desktop11:w-[16rem]' type="text" name="name" onChange={(e) => setNome(e.target.value)} value={nome}/>
